@@ -1,77 +1,94 @@
-# Fallen Halo Network
-
 <p align="center">
-  <strong>A custom Minecraft server network built around polished gameplay, powerful systems, and a community-first experience.</strong>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=Fallen%20Halo%20Network&fontSize=46&fontAlignY=35&fontColor=ffffff&animation=fadeIn&color=0:C7D7EA,100:828CA9" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Minecraft-Server%20Network-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Development-Custom%20Plugins-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" />
+  <strong>Custom Minecraft server development, gameplay systems, infrastructure, and community tools.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Minecraft-Server%20Network-828CA9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Development-Custom%20Plugins-C7D7EA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-In%20Development-828CA9?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-Plugin%20Development-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/PaperMC-Server%20Software-222222?style=flat-square" />
+  <img src="https://img.shields.io/badge/SpigotMC-Compatible-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/YAML-Configuration-828CA9?style=flat-square" />
 </p>
 
 ---
 
-## About Fallen Halo Network
+## Welcome to Fallen Halo Network
 
-**Fallen Halo Network** is a Minecraft server network focused on creating a clean, custom, and enjoyable player experience.
+**Fallen Halo Network** is a Minecraft server network focused on building a polished, custom, and long-term gameplay experience.
 
-Our projects are built around custom gameplay systems, server-side tools, staff utilities, economy features, progression mechanics, and long-term server infrastructure.
+This GitHub organization contains development work for our Minecraft server systems, custom plugins, backend tools, documentation, configuration standards, and internal infrastructure.
 
-This GitHub organization is used to manage our development work, internal tools, public resources, documentation, and custom Minecraft plugin projects.
+Our goal is simple:
+
+> Build server systems that feel clean, stable, custom, and worth coming back to.
 
 ---
 
 ## What We Build
 
+Fallen Halo Network projects may include:
+
 * Custom Minecraft plugins
-* Gameplay systems and server mechanics
-* Staff tools and moderation utilities
-* Economy and progression features
-* Player quality-of-life systems
-* Server infrastructure tools
-* Internal admin and development utilities
-* Public documentation and resources
+* Staff and moderation tools
+* Gameplay progression systems
+* Economy and reward systems
+* Player quality-of-life features
+* Server utility tools
+* Internal admin systems
+* Documentation and setup guides
+* Reusable plugin foundations
+* Experimental gameplay mechanics
 
 ---
 
 ## Development Focus
 
-We care about more than just making things work.
+We care about building systems that are not only functional, but maintainable.
 
-Our development priorities include:
+Our development standards focus on:
 
-* Clean and maintainable code
-* Stable production-ready systems
-* Performance-friendly plugin design
-* Clear configuration files
-* Helpful documentation
-* Safe reload behavior
-* Long-term supportability
-* Player-friendly gameplay design
+| Focus Area        | Goal                                                   |
+| ----------------- | ------------------------------------------------------ |
+| Stability         | Reduce bugs, crashes, and unsafe behavior              |
+| Performance       | Keep server impact low and TPS-friendly                |
+| Maintainability   | Write clean code that can be updated later             |
+| Configuration     | Make systems flexible through clear config files       |
+| Documentation     | Help staff and developers understand each project      |
+| Compatibility     | Support the Minecraft versions and platforms we target |
+| Player Experience | Keep features polished, useful, and enjoyable          |
 
 ---
 
-## Technology Stack
+## Minecraft Development Stack
 
-Our projects may use:
+Our projects may use the following technologies:
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/PaperMC-222222?style=flat-square" />
   <img src="https://img.shields.io/badge/SpigotMC-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Folia-Experimental-828CA9?style=flat-square" />
   <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" />
   <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white" />
-  <img src="https://img.shields.io/badge/YAML-Configuration-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/YAML-Configuration-C7D7EA?style=flat-square" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 </p>
 
 ---
 
-## Minecraft Integrations
+## Common Plugin Integrations
 
-Our plugins may support popular Minecraft server tools such as:
+Depending on the project, our plugins may integrate with:
 
 * PlaceholderAPI
 * Vault
@@ -82,79 +99,139 @@ Our plugins may support popular Minecraft server tools such as:
 * PlayerPoints
 * ItemsAdder
 * Oraxen
+* Nexo
+* Discord webhooks
+* SQL databases
+* Server proxy systems
+
+---
+
+## Repository Categories
+
+This organization may contain different types of repositories:
+
+| Repository Type     | Purpose                                            |
+| ------------------- | -------------------------------------------------- |
+| Plugin Repositories | Custom Minecraft plugins and gameplay systems      |
+| Staff Tools         | Moderation, admin, and staff workflow systems      |
+| Server Tools        | Utilities for maintaining and managing the network |
+| Documentation       | Guides, setup notes, standards, and references     |
+| Templates           | Reusable foundations for future development        |
+| Experiments         | Early-stage concepts and testing projects          |
 
 ---
 
 ## Project Standards
 
-Every serious Fallen Halo Network project should aim to include:
+When possible, Fallen Halo Network repositories should include:
 
 * A clear `README.md`
-* Commands and permissions documentation
+* Commands documentation
+* Permissions documentation
 * Example configuration files
-* Versioned releases
-* Changelog notes
+* Plugin compatibility notes
+* Build instructions
+* Changelog or release notes
 * Issue tracking
-* Tested server compatibility
-* Clean package naming
+* Versioned releases
+* Clean package structure
 * Meaningful commit history
-
----
-
-## Repository Types
-
-This organization may contain:
-
-| Type                       | Purpose                                          |
-| -------------------------- | ------------------------------------------------ |
-| Plugin Repositories        | Custom Minecraft plugins and gameplay systems    |
-| Tooling Repositories       | Internal scripts, utilities, and automation      |
-| Documentation Repositories | Setup guides, server docs, and development notes |
-| Template Repositories      | Reusable project foundations for future plugins  |
-| Experimental Repositories  | Testing new ideas before production use          |
-
----
-
-## Server Philosophy
-
-Fallen Halo Network is built with a simple goal:
-
-> Create a Minecraft server experience that feels custom, polished, and worth coming back to.
-
-We focus on systems that make gameplay more meaningful, staff work easier, and the server easier to maintain over time.
 
 ---
 
 ## Current Focus Areas
 
-* Custom server features
-* Staff and moderation systems
-* Gameplay progression
-* Player economy tools
+Our current development focus includes:
+
+* Custom server gameplay systems
+* Staff and moderation features
+* Player progression mechanics
+* Economy and reward systems
 * Server quality-of-life improvements
-* Developer-friendly plugin foundations
-* Network infrastructure
+* Plugin configuration standards
+* Long-term server infrastructure
+* Clean documentation for staff and developers
+
+---
+
+## Server Philosophy
+
+Fallen Halo Network is built around a few core ideas:
+
+### Make gameplay feel custom
+
+Players should feel like the server has its own identity, not just a collection of generic plugins.
+
+### Keep systems reliable
+
+Features should work consistently and safely during real server use.
+
+### Build for the future
+
+Projects should be organized so they can be improved, expanded, and maintained over time.
+
+### Respect the player experience
+
+Good features should be useful, understandable, and enjoyable without adding unnecessary clutter.
+
+---
+
+## Public and Private Work
+
+Some repositories in this organization may be public, while others may remain private for internal development.
+
+Public repositories may include:
+
+* Open-source tools
+* Documentation
+* Community resources
+* Example systems
+* Utility plugins
+
+Private repositories may include:
+
+* Production server code
+* Internal tools
+* Sensitive configuration files
+* Unreleased projects
+* Network-specific systems
 
 ---
 
 ## Contributing
 
-Some repositories may be private or internal-only. Public repositories may accept issues, suggestions, or pull requests depending on the project.
+Contribution rules may vary by repository.
 
-Before contributing, please check the repository README for project-specific rules.
+Before opening an issue, pull request, or suggestion, please check the target repository’s README and contribution notes.
+
+For public repositories, useful contributions may include:
+
+* Bug reports
+* Documentation improvements
+* Feature suggestions
+* Compatibility testing
+* Code cleanup
+* Pull requests
+
+---
+
+## Links
+
+Official links will be added as they become available.
+
+| Resource      | Status      |
+| ------------- | ----------- |
+| Website       | Coming soon |
+| Discord       | Coming soon |
+| Store         | Coming soon |
+| Documentation | Coming soon |
+| Server IP     | Coming soon |
 
 ---
 
-## Connect With Fallen Halo Network
-
-Official links will be added here as they become available.
-
-* Website: Coming soon
-* Discord: Coming soon
-* Store: Coming soon
-* Documentation: Coming soon
-
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:828CA9,100:C7D7EA" />
+</p>
 
 <p align="center">
   <strong>Fallen Halo Network</strong><br>
